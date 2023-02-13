@@ -1,0 +1,32 @@
+$PrimaryColor: #0072C6;
+$SecondaryColor: #D3D3D3;
+$AccentColor: #00FF00;
+//font
+$PrimaryFont: 'Open Sans', sans-serif;
+$SecondaryFont: 'Lato', sans-serif;
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#map {
+    background-color: #D3D3D3;
+}

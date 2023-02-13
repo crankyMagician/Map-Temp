@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+
+# User secrets
+*.usersecrets
+
+# Visual Studio specific files
+*.suo
+*.user
+*.aps
+*.pdb
+*.log
+
+# NuGet packages
+*.nupkg
+
+# Visual Studio Code
+.vscode/
+
+# .NET runtime user-level cache
+~/.nuget/
+
+# .NET runtime machine-level cache
+$HOME/.nuget/packages/
