@@ -18,6 +18,11 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #D3D3D3;
+}
+
+.secondaryColor {
+  background-color: #00FF00;
 }
 
 #map {

@@ -27,6 +27,7 @@ namespace MGRS.Hubs
 
             if (weatherData != null)
             {
+                // Send the temperature data to all connected clients
                 await Clients.All.SendAsync("ReceiveWeatherData", weatherData.CurrentWeather.Temperature);
 
                 // Output the current weather to console

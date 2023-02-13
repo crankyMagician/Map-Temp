@@ -25,6 +25,12 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+   
+    color:$SecondaryColor;
+}
+
+.secondaryColor{
+    background-color:$AccentColor;
 }
 
 #map {
